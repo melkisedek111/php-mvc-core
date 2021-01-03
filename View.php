@@ -1,7 +1,7 @@
 <?php
-namespace app\core;
+namespace thecore\phpmvc;
 
-use app\core\Application;
+use thecore\phpmvc\Application;
 
 class View
 {

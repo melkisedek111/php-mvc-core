@@ -1,10 +1,10 @@
 <?php
 
-namespace app\core;
+namespace thecore\phpmvc;
 
-use app\core\UserModel;
+use thecore\phpmvc\UserModel;
 
-use app\core\database\Database;
+use thecore\phpmvc\database\Database;
 
 class Application { 
     public static string $ROOT_DIR;
@@ -44,7 +44,7 @@ class Application {
 
     
 
-    public function getController(): \app\core\Controller {
+    public function getController(): \thecore\phpmvc\Controller {
         return $this->controller;
     }
     public function setController(Controller $controller): void {

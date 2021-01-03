@@ -6,5 +6,10 @@
             "email": "melxubalde@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "thecore\\phpmvc": "./"
+        }
+    }
 }

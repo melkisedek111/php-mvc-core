@@ -1,6 +1,6 @@
 <?php
 
-namespace app\core;
+namespace thecore\phpmvc;
 
 abstract class Model {
     public const RULE_REQUIRED = 'required';

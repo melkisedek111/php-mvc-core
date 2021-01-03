@@ -1,10 +1,10 @@
 <?php
 
-namespace app\core\form;
+namespace thecore\phpmvc\form;
 
-use app\core\Model;
-use app\core\form\InputField;
-use app\core\form\SelectField;
+use thecore\phpmvc\Model;
+use thecore\phpmvc\form\InputField;
+use thecore\phpmvc\form\SelectField;
 
 class Form {
     public static function begin(string $action,string  $method) {

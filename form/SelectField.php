@@ -1,6 +1,6 @@
 <?php 
-namespace app\core\form;
-use app\core\form\BaseField;
+namespace thecore\phpmvc\form;
+use thecore\phpmvc\form\BaseField;
 
 class SelectField extends BaseField {
 

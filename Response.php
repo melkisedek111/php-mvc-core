@@ -1,5 +1,5 @@
 <?php
-namespace app\core;
+namespace thecore\phpmvc;
 
 class Response {
     public function setStatusCode(int $code) {

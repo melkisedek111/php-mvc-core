@@ -1,5 +1,5 @@
 <?php
-namespace app\core;
+namespace thecore\phpmvc;
 
 class Request {
     public function getPath() {

@@ -1,9 +1,9 @@
 <?php
 
 
-namespace app\core\database;
+namespace thecore\phpmvc\database;
 
-use app\core\Application;
+use thecore\phpmvc\Application;
 
 class Database {
     public \PDO $pdo;

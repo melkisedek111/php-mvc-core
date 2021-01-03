@@ -1,11 +1,11 @@
 <?php
 
-namespace app\core;
+namespace thecore\phpmvc;
 
-use app\core\exception\NotFoundException;
+use thecore\phpmvc\exception\NotFoundException;
 /**
  *
- * @package app\core
+ * @package thecore\phpmvc
  */
 class Router
 {
@@ -14,8 +14,8 @@ class Router
     protected array $routes = [];
 
     /**
-     * @param \app\core\Request $request
-     * @param \app\core\Response $response
+     * @param \thecore\phpmvc\Request $request
+     * @param \thecore\phpmvc\Response $response
      */
     public function __construct(Request $request, Response $response)
     {
@@ -45,7 +45,7 @@ class Router
         }
 
         if (is_array($callback)) {
-            /** @var \app\core\Controller $controller */
+            /** @var \thecore\phpmvc\Controller $controller */
             $controller = new $callback[0](); //  instance of a controller take the 0 index which is the controller name "SiteController::class" and create new instance and mutate the callback[0]
             Application::$app->controller = $controller;
             $controller->action = $callback[1];
